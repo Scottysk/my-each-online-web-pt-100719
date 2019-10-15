@@ -6,5 +6,7 @@ def my_each(collection)
     i = i + 1
   end
   collection
-else 
+  else 
+    puts ""
+  end
 end
