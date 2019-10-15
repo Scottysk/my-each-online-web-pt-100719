@@ -1,5 +1,4 @@
 def my_each(collection)
-  if block_given?
   
   counter = 0
   while counter < collection.length
@@ -7,6 +6,4 @@ def my_each(collection)
     counter = counter + 1
   end
   collection
-else 
-  
 end
